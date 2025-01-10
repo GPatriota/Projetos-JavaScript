@@ -2,12 +2,12 @@ const person = {
     name: 'Vitor J Guerra',
     age: 25,
     describe: function() {
-        console.log("My name is ${this.name) and my age is $(this.idade}");
+        console.log("Meu nome é ${this.name) e minha idade é $(this.idade)");
     }
 };
 
 person.describe = function() {
-    console.log("My name is ${this.nome}");
+    console.log(`My name is ${this.name}`);
 };
 
 person.describe();
