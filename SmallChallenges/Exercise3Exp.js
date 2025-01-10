@@ -1,4 +1,4 @@
-const numbers = [5.5];
+const numbers = [3000.00, 500.00]; 
 let i = 0;
 
 function gets() {

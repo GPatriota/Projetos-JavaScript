@@ -1,4 +1,4 @@
-const numbers = [5.5];
+const numbers = [5, 50, 10, 98, 23];
 let i = 0;
 
 function gets() {
