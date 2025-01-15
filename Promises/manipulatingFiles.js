@@ -16,4 +16,4 @@ promiseToReadTheFile
     }
   }))
   .then(listOfTasks => console.log(listOfTasks))
-  .catch(error => console.log('Deu ruim!', error))
+  .catch(error => console.log('Deu errado!', error))
